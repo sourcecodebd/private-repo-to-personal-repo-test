@@ -1,0 +1,95 @@
+body {
+    background-color: #264653;
+    font-family: 'Poppins', sans-serif
+}
+
+.img-logo {
+    width: 120px;
+    height: 80px
+}
+
+.text-logo {
+    color: lightgreen;
+    font-size: 30px
+}
+
+.text-logo:hover {
+    color: #ffb560
+}
+
+.purchase {
+    margin-top: 160px;
+    background-color: #264653;
+}
+
+.purchase p {
+    color: #E0E0E0;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.circle-user-img {
+    height: 58%;
+    border-radius: 50%;
+}
+
+.filled {
+    color: orange
+}
+
+.blank {
+    -webkit-text-stroke: 2px gold;
+    -webkit-text-fill-color: transparent;
+}
+
+main {
+    padding-bottom: 160px
+}
+
+.footer {
+    margin-top: -120px;
+}
+
+.btn {background-image: linear-gradient(to right, #ff4b1f 0%, #ff9068  51%, #ff4b1f  100%)}
+.btn {
+   margin: 10px;
+   transition: 0.5s;
+   background-size: 200% auto;         
+   box-shadow: 0 0 20px rgb(240, 33, 33);
+   display: block;
+   width: 168px;
+   height: 44px
+ }
+
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .filter {
+    filter: grayscale(100%);
+ }
+
+ .border-bottom-hr {
+    border-bottom: 2px solid #E76F51;
+    width: 60px;
+ }
+
+@media only screen and (max-width:600px) {
+    .purchase {
+        margin-top: 73%
+    }
+
+    .btn {
+        width: 55%;
+        height: 20%
+    }
+
+    .circle-user-img {
+        height: 60%;
+        border-radius: 50%;
+    }
+}
